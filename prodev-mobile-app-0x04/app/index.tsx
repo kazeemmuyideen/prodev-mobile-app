@@ -45,7 +45,7 @@ export default function Index() {
                   </TouchableOpacity>
                 </Link>
 
-                <Link href="/sign" asChild>
+                <Link href="/signin" asChild>
                   <TouchableOpacity style={styles.transparentButton}>
                     <Text style={styles.textSmall}>Sign In</Text>
                   </TouchableOpacity>
