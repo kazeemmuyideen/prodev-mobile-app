@@ -12,7 +12,7 @@ export default function Index() {
                   <TouchableOpacity onPress={() => router.back()}>
                     <Ionicons name="arrow-back" size={25} />
                   </TouchableOpacity>
-                  <Image source={require("../assets/images/Logo.png")} />
+                  <Image source={require("../assets/images/logo.png")} />
         </View>
         
         <Text style={styles.largeText}>Sign in to your</Text>
