@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.FACEBOOKLOGO = exports.GOOGLELOGO = exports.HEROLOGOGREEN = exports.HEROLOGO = exports.BACKGROUNDIMAGE = void 0;
+var BACKGROUNDIMAGE = require("../assets/images/hero-icon.png");
+exports.BACKGROUNDIMAGE = BACKGROUNDIMAGE;
+var HEROLOGO = require("../assets/images/Logo.png");
+exports.HEROLOGO = HEROLOGO;
+var HEROLOGOGREEN = require("../assets/images/logo-green.png");
+exports.HEROLOGOGREEN = HEROLOGOGREEN;
+var GOOGLELOGO = require("../assets/images/google.png");
+exports.GOOGLELOGO = GOOGLELOGO;
+var FACEBOOKLOGO = require("../assets/images/facebook.png");
+exports.FACEBOOKLOGO = FACEBOOKLOGO;
