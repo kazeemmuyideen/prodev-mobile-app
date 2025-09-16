@@ -1,5 +1,5 @@
 import { Text, TextInput, View, TouchableOpacity, Image } from "react-native";
-import { styles } from "../styles/index";
+import { styles } from "@/styles/index";
 import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
 import { FontAwesome, Ionicons } from "@expo/vector-icons";
 import { router } from "expo-router"; // ✅ Import router 
@@ -12,7 +12,7 @@ export default function Index() {
                   <TouchableOpacity onPress={() => router.back()}>
                     <Ionicons name="arrow-back" size={25} />
                   </TouchableOpacity>
-                  <Image source={require("../assets/images/logo.png")} />
+                  <Image source={require("../assets/images/Logo.png")} />
         </View>
         
         <Text style={styles.largeText}>Sign in to your</Text>
